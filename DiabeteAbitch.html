@@ -1,0 +1,244 @@
+<!-- pst The browser console parsa is here watching you....-->
+<!-- what about a little meet and following my Github m'lady? @ParsaRoidd-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DiabetesAbitch </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Rubik+Distressed&family=Sixtyfour&family=VT323&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="https://image2url.com/images/1763963439859-2de6588a-5b20-4436-9d27-b2f758de2f11.jpg">
+
+    <!-- CSS might look messy but I'm to lazy to scroll among like 100 lines of CSS-->
+
+    <style>
+        *{ box-sizing: border-box; font-family: 'VT323', monospace; font-size: 1em;}
+        * p:hover, h1:hover
+        , h2:hover, h3:hover, label:hover, h4:hover, h5:hover { 
+            background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgiffiles.alphacoders.com%2F165%2F16583.gif&f=1&nofb=1&ipt=2316906cd5ab52e69701d4ece3eb4ee0d6df349ed06a0f56b746c012b1350d0d);
+        color: white;
+        font-family: 'Bungee', 'VT323';
+        font-size: 1.2em;        
+        }
+        header { padding: 30px; background-color: blueviolet; text-align: center; width: 70%; margin: auto; font-size: 2em; color: white;}
+        body { background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmir-s3-cdn-cf.behance.net%2Fproject_modules%2Fhd%2F61d84a107608503.5faaf12f12466.gif&f=1&nofb=1&ipt=f836e497b88147cc4ba53baf0796b9871073ccafd7d472d469c929edb3867a87) ;}
+        .contain { width: 70%; margin: auto; border: 5px ridge blueviolet; background-color: rgb(217, 177, 255); }
+        .navigation { width:70%; margin:auto; border: 10px dotted rgb(217, 177, 255); background-color: blueviolet; list-style-type: none;}
+        .navigation ul { list-style-type: none; margin: 0px; padding: 0px; overflow: hidden; }
+        .navigation a { color: #000; text-decoration: none; padding:15px; display: block; text-align: center; border-left: 5px rgb(239, 239, 88); font-size: 1.9em;}
+        .navigation a:hover { background-color: blue; color: whitesmoke; font-family: 'Bungee', 'VT323'; font-size: 2.3em; }
+        .navigation li { float: left; }
+        .timeline { width: 70%; margin: auto; font-size: 1.7em; }
+        .timeline input{ outline: none;width:20%; height: 30px; }
+        .timeline input[type="radio"] { transform: scale(0.5); margin: 0; padding: 0; } 
+        #amount { padding-top: 25px; font-size: 2em;}
+        .girlies input[type="radio"] { transform: scale(0.3);}
+        .girlies { display: flex; justify-content: center; align-items: center;}
+        .center { display: flex; justify-content: center; align-items: center;}
+        .center input {margin: 10px;}
+        footer { background-color: blueviolet; border: 5px dotted rgb(217, 177, 255); font-size: 0.9em; width: 100%; margin: auto;}
+    </style> 
+</head>
+<body>
+    <header>
+        <h1> DiabetesAbitch; the final </h1>
+    </header>
+    <nav class="navigation">
+            <ul>
+                <li><a href="please.html"> The main Quarters </a></li>
+                <li><a href="mhr.html"> My honest reaction </a></li>
+                <li><a href="credits.html"> Credits </a></li>
+                <li><a href="https://github.com/parsaroidd" target="_blank">GitHub</a></li>
+                <li><a href="ElaheV3.html"> Elahe the third version </a></li>
+            </ul>
+    </nav>
+
+
+    <div class="contain">
+    <div class="timeline">
+
+        <br><hr>
+        <input type="text" id="amount"> <label for="amount"> what was your bloodSugar?</label>
+        <br>
+        <input type="radio" id="mgdl" name="t"> <label for="mgdl"> mgdl</label>
+        <input type="radio" id="mmol" name="t"> <label for="mmol"> mmol </label>
+        <br><hr><br>
+
+        <div class="center">
+        <input type="text" id="time"> <label for="time"> <=Enter the time HH:MM</label>
+        <input type="text" id="date"> <label for="date"> <=Enter the date YY/MM/DD</label> </div>   
+
+        <h1 style="text-align: center;"> Time Configuration </h1>
+        <p style="text-align: center;" id="warn"> click on the one with clocks to set the time automatically </p>
+
+        <div class="girlies">
+        <input type="radio" id="manual" name="handler"> <label for="manual"> <img src="https://image2url.com/images/1764094785828-c4cc5ed3-3cdd-40b4-903e-6d28ade41afe.jpg" height=200> </label>
+        <input type="radio" id="auto" name="handler"> <label for="auto"> <img src="https://image2url.com/images/1764094757026-b197434f-370b-4b3a-bb03-602ec14faf8b.jpg" height=200></label>
+        <br><hr><br></div><br><hr><br> 
+        <div class="not">
+            <input type="text" id="note"> <label for="note"> Do U have anything 2 say ???</label>
+        </div><br><hr><br> 
+        <h1 style="display: flex; justify-content: center; align-items: center;"> click the image to submit </h1> <br>
+        <div  style="display: flex; justify-content: center; align-items: center;">
+            
+            <button" id="submit"> <img src="https://image2url.com/images/1764094695632-ffaaabf0-fa2b-4a5f-9784-9a01dac52e6b.jpg" height=200> </button>
+        </div><br><hr><br>
+        <div class="final">
+            <pre id="ress"></pre>
+            <pre id="nnn"></pre>
+            <form id="jso">
+                <label> Select your database:
+                    <input type="file" accept=".json" id="json" required>
+                </label>
+            <button type="submit"> Load the DataBase </button>
+        </form> <br><hr><br>
+        <div style="display: flex; justify-content: center; align-items: center;"
+        <button id="wtf"> <img src="https://image2url.com/images/1764140880177-369c1748-1ca7-4115-9cd7-f0ea182fff0e.jpg" height="100"></button> <br>
+        
+        </div> 
+        <br> <h2 style="display: flex; justify-content: center; align-items: center;"> WTf is this shit </h2>            
+        </div>
+        </div>
+        <footer>
+            <h4> this thing was created by @ParsaRoidd on Github , the script is write here, so anyone can manipulated, i don't have download buttons or sumn for safety and blah blah</h4>
+        </footer>
+
+    <script>
+        const entries = []
+        const notes = [] 
+        
+        // I LOVE JSON FILESSSSSSSSSSSSSS <333333333333
+        document.getElementById("jso").addEventListener('submit', e => {
+            e.preventDefault();
+            const file = document.getElementById('json').files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = () => {
+                try {
+                    const entries = JSON.parse(reader.result);
+                    document.getElementById("ress").textContent = JSON.stringify(entries, null, 2);
+
+                } catch(err) {
+                    alert("where is the json dude")
+                }
+            }
+            reader.readAsText(file);
+        })
+        
+        function operate(note) {
+
+            const time0 = document.getElementById("time").value;
+            const date0 = document.getElementById("date").value;
+            const amount0 = document.getElementById("amount").value;
+            const mmol = document.getElementById("mmol");
+            const notautotime = document.getElementById("manual");
+            const mg = document.getElementById("mgdl");
+            const autotime = document.getElementById("auto");
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const year = now.getFullYear();
+            const month = (now.getMonth() + 1).toString().padStart(2, '0');
+            const day = now.getDate().toString().padStart(2, '0');
+            const timee = `${hours} : ${minutes}`;
+            const datee = `${year}/${month}/${day}`;
+            const warn = document.getElementById("warn");
+            
+
+            if (note == 'ok') {
+                txt = { 
+                    date: datee,
+                    time: timee,
+                    noet: document.getElementById("note").value
+                }
+                notes.push(txt);
+            } else {
+                console.log("follow me on github! @ParsaRoidd");
+            }
+
+
+            if (mmol.checked && notautotime.checked) {
+                obj = {
+                    amount: amount0,
+                    time: time0,
+                    data: date0, 
+                    type: "Mmol/l"
+                }
+                entries.push(obj);
+                warn.textContent = "You are selecting manual time config"
+            } 
+            else if(notautotime.checked && mg.checked) {
+                obj = {
+                    amount: amount0,
+                    time: time0,
+                    data: date0, 
+                    type: "Mg/Dl"
+                }
+                entries.push(obj);
+                warn.textContent = "You are selecting manual time config"
+            }
+            else if (autotime.checked && mg.checked){
+                obj = {
+                    amount: amount0,
+                    time: timee,
+                    date: datee,
+                    type: "Mg/Dl"
+                }
+                entries.push(obj);
+                warn.textContent = "You are selecting auto-time config"
+            } else {
+                obj = {
+                    amount: amount0,
+                    time: timee,
+                    date: datee,
+                    type: "Mmol/l"
+
+                } 
+                entries.push(obj);
+                warn.textContent = "You are selecting auto-time config"
+            }
+
+            document.getElementById("ress").textContent = JSON.stringify(entries, null, 2);
+            if (notes.length > 0) {
+                document.getElementById("nnn").textContent = notes;
+            }
+            
+        }
+        document.getElementById("submit").onclick = function() {
+
+            const time0 = document.getElementById("time").value;
+            const date0 = document.getElementById("date").value;
+            const amount0 = document.getElementById("amount").value;
+            const note0 = document.getElementById("note").value;
+            const autotime = document.getElementById("auto");
+            
+            if (0 < amount0 < 10000 ) {
+                if (autotime.checked || time0 !== "") {
+
+                    if ( autotime.checked || date0 !== ""){
+
+                        if (note0 !== "") {
+
+                            operate("ok");
+                        } else {
+                            operate("Created By @ ParsaRoidd on Github");
+                        }
+                    } else {
+                        alert("enter your date plz");
+                    }
+                } else {
+                    alert("bro enter some time stuff... or set the time config on auto by clicking the time-holding anime dude");
+                }
+            } else {
+                alert("🚧☢ Bro Blood sugar can't be under zero or over like 6000 thousend or sumn, otherwise you weren't here using this, enter sumn valid");
+            }
+        };
+        document.getElementById("wtf").onclick = function() {
+            alert("So lemme tell ya, \n input is clear, like how to enter data, \n but about the database, \n it's a json file that you must have locally on your device you can just write in a notepad or sumn, \n and when you are done, copy-paste the result into your file for future usage.")
+        }
+
+    </script>
+</body>
+</html>
